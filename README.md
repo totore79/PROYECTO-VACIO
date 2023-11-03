@@ -19,9 +19,8 @@ Para que el miniblog funcione debes crear las siguientes variables de entorno:
     export APP_SETTINGS_MODULE="config.local"
 
 #### Windows
-
-    set "FLASK_APP=entrypoint"
-    set "FLASK_ENV=development"
+    set "FLASK_APP="entrypoint"
+    set "FLASK_ENV="development"
     set "APP_SETTINGS_MODULE=config.local"
     
 > Mi recomendación para las pruebas es que añadas esas variables en el fichero "activate" o "activate.bat"
